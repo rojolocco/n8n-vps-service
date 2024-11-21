@@ -9,6 +9,7 @@ services:
       - TZ=America/Bogota  # Cambia esto según tu zona horaria
     volumes:
       - n8n_data:/home/node/.n8n
+    restart: always
 
 volumes:
   n8n_data:
